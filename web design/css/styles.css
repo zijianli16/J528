@@ -1,0 +1,744 @@
+/* template.css 
+   Project: Template for USC Annenberg MS and UG programs
+   Author: Prof. Peggy Bustamante
+   Date: July 2018
+  
+   Helpful links: 
+    Web colors: 
+      https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+  Color picker tool:
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+    http://colorpicker.com
+
+
+*/
+
+/********* MAIN *********/
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 18px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+iframe {
+    min-width: 100%; min-height: 100%;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+h1 {
+  font: 43px "Lato", sans-serif;
+}
+
+h2 {
+  font: 29px "Lato", sans-serif;
+}
+
+h3 {
+  font: 26px "Lato", sans-serif;
+}
+
+a {
+  color: #900;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkred;
+  background-color: blanchedalmond;
+  text-decoration: underline;
+}
+
+section {
+  min-height: 400px;
+  background-color: gainsboro;
+  position: relative;
+  padding: 30px 30px;
+  display: -webkit-flex;
+  display: flex;
+}
+
+section .textbox {
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 30px 30px;
+  text-align: left;
+  width: 23%;
+}
+
+section .textbox p {
+
+  font-size: .9em;
+  font-weight: lighter;
+
+}
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url("../img/coverphoto.jpg");
+  height: 90%;
+}
+
+/* BACKGROUND IMAGES for parallax effect */
+.divider.bgimg1 {
+  background-image: url("../img/griffith.jpg");
+  min-height: 400px;
+}
+
+.divider.bgimg2 {
+  background-image: url("../img/beach.jpg"); /* ../img/img_parallax2.jpg */
+  min-height: 400px;
+}
+
+.divider.bgimg3 {
+  background-image: url("../img/coverphoto.jpg");
+  min-height: 400px;
+}
+
+.divider.bgimg4 {
+  background-image: url("../img/griffith.jpg");
+  min-height: 400px;
+}
+
+.divider.bgimg5 {
+  background-image: url("../img/beach.jpg"); /* ../img/img_parallax2.jpg */
+  min-height: 400px;
+}
+
+.divider.bgimg6 {
+  background-image: url("../img/coverphoto.jpg");
+  min-height: 400px;
+}
+
+.divider.bgimg7 {
+  background-image: url("../img/griffith.jpg");
+  min-height: 400px;
+}
+
+.divider.bgimg8 {
+  background-image: url("../img/beach.jpg"); /* ../img/img_parallax2.jpg */
+  min-height: 400px;
+}
+
+.divider.bgimg9 {
+  background-image: url("../img/coverphoto.jpg");
+  min-height: 400px;
+}
+
+/* miscellaneous */
+
+span.hilite {
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.words {
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+/* DIVIDERS */
+
+.divider {
+  position: relative;
+}
+
+.divider .caption {
+  position: absolute;
+  top: 10%;
+  text-align: left;
+  color: #fff;
+  letter-spacing: 2px;
+  width: 27%;
+  border: 1px solid black;
+  background-color: rgba(0,0,0, 0.4);
+  padding: 20px;
+  font-size: 1.1em;
+  box-shadow: 2px 2px 8px #000000;
+  left: 4%;
+}
+
+/* MAIN HEADLINE AND BYLINES */
+/* plus ALL TEXT */
+
+
+
+
+.title {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 90%;
+  padding: 5%;
+  text-align: center;
+}
+
+.title h1 {
+  opacity: 1;
+  color: MintCream;
+  font-size: 53px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.title h2 {
+  opacity: 1;
+  color: MintCream;
+  font-size: 31px;
+  font-weight: bold;
+  margin-bottom: 10%;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.byline {
+  background-color: gold;
+  color: black;
+  padding: 11px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.title0 {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.title0 h1 {
+  color: #333;
+  font-size: 49px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title0 h2 {
+  opacity: 1;
+  color: #333;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 57px;
+}
+
+
+/* MAIN TEXT */
+
+section.maintext {
+  position: relative;
+  color: #777;
+  background-color: white;
+  text-align: center;
+  text-align: justify;
+  display: block; /* removes display: flex */;
+  padding-bottom:40px;
+}
+
+section.maintext p {
+  line-height: 1.7em;
+  padding: 0% 23%;
+}
+
+
+/* Text embed teasers */
+
+.teaser {
+  border-top: 15px solid #333; /*adds fat line above */
+  border-left: 2px solid #333; /*adds thin line on left */
+  width: 350px;
+  height: auto;
+  margin: 30px;
+  padding: 20px;
+}
+
+.teaser .caption {
+    line-height: 1.7em;
+    font-style: italic;
+    left: 0;
+    bottom: -1.2em;
+    font-size: .9em;
+    color: #333;
+}
+
+.tright {
+  float: right;
+}
+
+.tleft {
+  float: left;
+}
+
+.teaser video {
+  height: 100%;
+  width: 100%;
+}
+
+.teaser img {
+  width: 100%;
+  height: 1000%;
+  border: 1px solid #333;
+}
+
+.teaser blockquote {
+  display: block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 2.1em;
+  line-height: 1.2;
+  color: #666;
+  text-align: left;
+  font-style: italic;
+  
+
+  
+  /*Box Shadow */
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.teaser blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+.teaser blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+
+
+
+/* MAIN VIDEO CSS */
+
+section.mainvideo {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.videotext {
+  width: 27%;
+  min-height: 98%;
+}
+
+
+/* This fixes the collapsing */
+.youtube { min-width: 73%; min-height: 100%; }
+
+/* MAIN AUDIO */
+
+section.mainaudio {
+  /*background-image: url("../img/beach.jpg");*/
+  /* -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;*/
+}
+
+.audiotext {
+  width: 27%;
+}
+
+section.mainaudio .audio {
+  width: 73%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside.sound {
+  width: 47%;
+  margin: 0% 0% 2% 2%;
+}
+
+aside.sound img {
+  width: 100%;
+  border: 1px solid #333;
+}
+
+aside.sound audio {
+  width: 100%;
+
+}
+
+/* VR AND 360 VIDEO */
+section.vr360video {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.vr360videotext {
+  width: 27%;
+}
+
+/* This fixes the collapsing */
+.vr360youtube { min-width: 73%; min-height: 100%; }
+
+
+/* PHOTO GALLERY / SLIDESHOW */
+
+section.slideshow {
+  /*background-image: url("../img/beach.jpg");*/
+  /*-webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;*/
+
+}
+
+.slideshowtext {
+  width: 23%;
+}
+
+.slideshowcontent {
+   width: 77%;
+   height: 100%;
+   background-color: black;
+}
+
+.cycle-slideshow { 
+    width: 100%; max-width: 1400px; margin: 0px auto; 
+}
+
+.cycle-slideshow img { 
+    width: 100%; height: auto;  
+}
+
+
+/* GOOGLE MAP */
+
+
+section.gmapmain {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.gmaptext {
+  width: 27%;
+}
+
+
+.gmap { 
+  min-width: 73%; min-height: 100%; 
+}
+
+
+/* TIMELINE AND STORYMAP */
+
+section.knightlab {
+  /*background-image: url("../img/beach.jpg");*/
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+section.knightlab .timelinetext {
+  width: 33%;
+}
+
+
+/* This fixes the collapsing */
+section.knightlab .timeline { 
+  width: 100%; min-height: 100%; 
+}
+
+/* SOCIAL MEDIA */
+section.socialmedia {
+  /*background-image: url("../img/beach.jpg");*/
+  /* -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;*/
+}
+
+.twittertext {
+  width: 23%;
+}
+
+.twitter { 
+  width: 77%; max-height: 600px; 
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.twitter aside {
+  width: 100%; max-height: 600px;
+  margin-left: 1%;
+  overflow: scroll;
+}
+
+
+/* DATA VIZ */
+section.datavizmain {
+  /*-webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;*/
+}
+
+.dataviztext {
+  width: 37%;
+}
+
+.dataviz { 
+  margin: 1% auto;
+}
+
+.dataviz img {
+  width: 100%;
+}
+
+section.footer {
+  background-color: black;
+  color: blanchedalmond;
+  padding: 10px 20px;
+  min-height: 30px;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+
+
+
+/* MAKING IT MOBILE FRIENDLY */
+
+/* Turn off parallax scrolling for iPad and smaller */
+
+
+@media only screen and (max-width: 1024px) {
+
+    .parallax {
+        background-attachment: scroll;
+    }
+}    
+
+/* Turn off flex for iPad portrait mode  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) { 
+
+    .tright, .tleft {
+      float: none;
+      width: 90%;
+    }
+
+    section.mainvideo {
+      display: block;
+    }
+
+    section.mainvideo .videotext {
+      width: 89%;
+      margin: 1%;
+    }
+
+    section.vr360video {
+      display: block;
+    }
+    
+    section.vr360video .vr360videotext {
+      width: 89%;
+      margin: 1%;
+    }
+
+    section.gmapmain {
+      display: block;
+    }
+    
+    section.gmapmain .gmaptext {
+      width: 89%;
+      margin: 1%;
+    }
+
+    section.socialmedia {
+      display: block;
+    }
+    
+    section.socialmedia .twittertext {
+      width: 89%;
+      margin: 1%;
+    }
+
+    section.socialmedia .twitter {
+      width: 95%;
+      margin-bottom: 10px;
+      padding: 2%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    section.maintext p {
+      padding: 1% 11%;
+   }
+   
+    .parallax {
+      background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .parallax {
+      background-attachment: scroll;
+    }
+
+    iframe {
+      min-height: 600px;
+      width: 97%;
+
+    }
+
+    section {
+      display: block;
+      padding: 1%;
+    }
+
+    section .textbox {
+      width: 87%;
+      margin: 1%;
+    }
+
+    section .content {
+      width: 100%;
+      height: 100%;
+    }
+
+    .title h1 {
+      font-size: 47px;
+    }
+
+    .title h2 {
+      font-size: 27px;
+    }
+
+    .title0 {
+      padding: 2%;
+
+    }
+
+    .title0 h1 {
+      font-size: 41px;
+    }
+
+    .title0 h2 {
+      font-size: 21px;
+    }
+
+    .byline {
+      padding: 9px;
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+
+    section.maintext {
+      padding-bottom: 14%;
+    }
+
+    section.maintext p {
+      line-height: 1.3em;
+      padding: 1% 7%;
+      text-align: left;
+    }
+
+    section.maintext span.readfull {
+      margin: 4.7%;
+    }
+
+    section.maintext span.readfull2 {
+      margin: 4.7%;
+    }
+
+    .teaser {
+      width: 77%;
+      margin: 7%;
+
+    }
+
+    .tright, .tleft {
+      float: none;
+
+    }
+
+    .teaser blockquote {
+      font-size: 1.7em;
+    }
+
+    .divider .caption {
+      position: absolute;
+      top: auto;
+      bottom: 2%;
+      width: 82%;
+ 
+    }
+
+    section.mainvideo .content {
+      height: 400px ;
+    }
+
+    section.mainaudio .audio {
+      width: 100%;
+      display: block;
+    }
+
+    aside.sound {
+      /* border: 3px solid #333;*/
+      background-color: #aaa;
+      width: 82%;
+      height: 100%;
+      margin: 1%;
+      padding: 7%;
+    }
+
+    section.gmapmain .content {
+      width: 98%;
+      height: 400px;
+    }
+
+    section.knightlab .timeline {
+      width: 100%;
+      height: 800px;
+    }
+
+    .twitter {
+      width: 95%;
+      margin-bottom: 10px;
+      padding: 2%;
+    }
+
+    section.footer p {
+      font-size: 14px;
+    }
+
+
+}
+
+
+
+
+

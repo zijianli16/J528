@@ -1,0 +1,123 @@
+/* student.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+	This is from W3Schools.com "How to create a parallax scrolling effect": 
+	https://www.w3schools.com/howto/howto_css_parallax.asp
+
+*/
+
+
+header {
+  /*background-image: url("../img/coverphoto.jpg");*/
+  
+  /*height: 90%;*/
+}
+
+.title h1 {
+  /* color: blanchedalmond;*/
+}
+
+.title h2 {
+  /*  color: navajowhite;*/
+}
+
+.title0 h1 {
+  /*color: darkslategray;*/
+}
+
+.title0 h2 {
+  /*color: darkslategray; */
+}
+
+section.maintext {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+    .divider.bgimg1 {
+      /* background-image: url("../img/griffith.jpg"); */
+    }
+
+section.mainvideo {
+  /* background-image: url("../img/griffith.jpg");*/
+}
+
+    .divider.bgimg2 {
+      /* background-image: url("../img/beach.jpg"); */
+    }
+
+section.mainaudio {
+  /* background-image: url("../img/griffith.jpg");*/
+}
+
+    .divider.bgimg3 {
+    /*  background-image: url("../img/coverphoto.jpg"); */
+    }
+    
+section.sidebar {
+  /* background-image: url("../img/griffith.jpg");*/
+}
+
+    .divider.bgimg4 {
+      /*  background-image: url("../img/griffith.jpg"); */
+    }
+
+section.vr360video {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+    .divider.bgimg5 {
+      /* background-image: url("../img/beach.jpg"); */
+    }
+
+section.slideshow {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+    .divider.bgimg6 {
+      /*  background-image: url("../img/coverphoto.jpg"); */
+    }
+
+section.gmapmain {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+    .divider.bgimg7 {
+      /*  background-image: url("../img/griffith.jpg"); */
+    }
+
+section.knightlab {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+    .divider.bgimg8 {
+      /*  background-image: url("../img/beach.jpg"); */
+    }
+
+section.socialmedia {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+    .divider.bgimg9 {
+      /*  background-image: url("../img/coverphoto.jpg"); */
+    }
+
+section.dataviz {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+section.footer {
+  /* background-image: url("../img/griffith.jpg"); */
+}
+
+
+
+
